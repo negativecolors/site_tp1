@@ -1,0 +1,39 @@
+body
+{
+	background-color: #CCB7FF;  
+}
+
+h1,h2,h3
+{
+	color:#537D94;
+	text-align: center;
+}
+p
+{
+	color: #D080E7;
+}
+div
+{
+	border: 4px solid #539493;
+	width: 75%;
+	margin-left: auto;
+margin-right: auto; 
+margin-bottom: 5%;
+padding: 3%;
+}
+.cadre1
+{
+	background-color:#B7C6FF;
+}
+.cadre2
+{
+	background-color:#5D5394;
+}
+.paragraphe1
+{
+	color:#B7FFC8;
+}
+.paragraphe2
+{
+	color:#FDFFB7;
+}

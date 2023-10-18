@@ -1,0 +1,11 @@
+body{
+    background-color: beige;
+}
+div{
+    background-color: blanchedalmond;
+}
+input.t{
+    height: 50;
+    width: 100px;
+    color: blueviolet;
+}

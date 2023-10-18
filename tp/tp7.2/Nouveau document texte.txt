@@ -1,0 +1,32 @@
+function calcule()
+{
+    var a = document.getElementById("t4").value;
+
+    var b = document.getElementById("t2").value;
+    var c = document.getElementById("t3").value;
+
+    var z = document.getElementById("t4_2").value;
+
+    var y = document.getElementById("t2_2").value;
+    var q = document.getElementById("t3_3").value;
+
+    var d = (Number(b)*Number(c))*5/100;
+   
+    t4.value = d;
+
+    var e = (Number(bb)*Number(cc))*5/100;
+   
+    t4_2.value = e;
+
+    var f = (Number(b)*Number(c))-d;
+
+    t5.value = f;
+
+    var g = (Number(bb)*Number(cc))-e;
+
+    t5.value = g;
+
+    var h = f+g;
+
+    t34.value = h;
+}
