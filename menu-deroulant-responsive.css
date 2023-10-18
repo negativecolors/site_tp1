@@ -1,0 +1,166 @@
+body {
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+    background-image: url(ecran.gif); /* Remplacez 'votre-gif.gif' par le chemin vers votre GIF */
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    font-family:Verdana, Calibri , sans-serif;
+    margin: 0px;
+    padding: 0px;
+  }
+  p{
+    color: #6f88ce;
+  }
+
+  nav  >  ul {
+    margin:0px;
+    padding:0px;
+  }
+
+  nav li {
+    list-style-type:none;
+  }
+
+  nav > ul> li{ 
+    float:left;
+    position:relative;
+  }
+
+  .submenu
+  {
+    display:none;
+  }
+
+
+  nav input[type=checkbox]{
+    display:none;
+  }
+
+.menu-mobile{
+    display:none;
+  }
+
+  nav {
+    width:100%;
+    background-color:#1f3441;
+  }
+ 
+nav > ul::after{
+    content:"";
+    display:table;
+    clear:both;
+}
+
+nav a {
+    display:inline-block;
+    text-decoration:none;
+}
+
+nav > ul > li > a {
+    padding:20px 30px;
+    color:hsl(239, 100%, 87%);
+}
+
+nav li:hover .submenu{
+    display:inline-block;
+    position:absolute;
+    top:100%;
+    left:0px;
+    padding:0px;
+    z-index:100000;
+}
+
+.submenu li
+{
+    border:1px solid hsl(0, 100%, 91%);
+    border-radius: 10px rgb(26, 26, 255);
+    border-color: RGBa(26, 26, 255,0.25);
+    background-color: RGBa(209, 221, 255,0.5);
+}
+
+.submenu li a{
+    padding:15px 30px;
+    font-size:13px;
+    color:#222538;
+    width:270px;
+}
+
+.menu-html:hover{
+    border-top:5px solid #e44d26;
+    background-color: RGBa(240, 196, 255,0.25);
+
+}
+.menu-css:hover{
+    border-top:5px solid rgb(160, 241, 255);
+    background-color: RGBa(194, 246, 255,0.25);
+    
+}
+.menu-js:hover{
+    border-top:5px solid rgb(255, 193, 252);
+    background-color: RGBa(240, 196, 255,0.25);
+    
+}
+.menu-html:hover{
+    border-top:5px solid rgb(255, 218, 170);
+    background-color: RGBa(255, 238, 216,0.25);
+    
+}
+.menu-mission:hover{
+    border-top:5px solid rgb(255, 112, 160);
+    background-color: RGBa(255, 137, 177,0.25);
+    
+}
+.menu-PHP:hover{
+    border-top:5px solid rgb(255, 146, 146);
+    background-color: RGBa(255, 178, 178,0.25);
+    
+}
+.menu-base:hover{
+    border-top:5px solid rgb(126, 236, 255);
+    background-color: RGBa(166, 242, 255,0.25);
+    
+}
+.menu-cer:hover{
+    border-top:5px solid rgb(140, 255, 174);
+    background-color: RGBa(184, 255, 205,0.25);
+    
+}
+.menu-contrat:hover{
+    border-top:5px solid rgb(152, 255, 241);
+    background-color: RGBa(193, 255, 247,0.25);
+    
+}
+nav > ul> li:hover a{
+    padding:15px 30px 20px 30px;
+}
+
+.menu-html.submenu{
+    background-color: RGB(230,100,40);
+}
+.menu-css.submenu{
+    background-color: RGB(0,160,240);
+}
+.menu-js.submenu{
+    background-color: RGB(251,216,99);
+}
+
+.submenu li:hover a{
+    color:#EEE;
+    font-weight:bold;
+}
+
+.menu-html.submenu li:hover{
+    background-color: RGB(210,77,260);
+}
+.menu-css.submenu li:hover{
+    background-color: RGB(0,115,200);
+}
+.menu-js.submenu li:hover{
+    background-color: RGB(200,165,75);
+}
+
+nav input[type=checkbox]:checked~ul{
+    display:block;
+}
+
