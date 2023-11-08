@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Page Title</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='facture.css'>
+    <script src='facture.js'></script>
+</head>
+<body bgcolor="purple">
+    <h1>Facture en JavaScript</h1>
+    <div>
+        <table border="1">
+            <tr>
+                <td>Article :</td>
+                <td>Prix :</td>
+                <td>Quantité :</td>
+                <td>Résultat</td>
+            </tr>
+            <tr>
+                <td><input type="text" name="a1" placeholder="Entrez un article"></td>
+                <td><input type="text" name="a2" id="a2" placeholder="0"></td>
+                <td><input type="text" name="a3" id="a3" placeholder="0"></td>
+                <td><input type="text" name="a4" id="a4" placeholder="0" readonly></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="b1" placeholder="Entrez un article"></td>
+                <td><input type="text" name="b2" id="b2" placeholder="0"></td>
+                <td><input type="text" name="b3" id="b3" placeholder="0"></td>
+                <td><input type="text" name="b4" id="b4" placeholder="0" readonly></td>
+            </tr>
+            <tr>
+                <td><input type="text" name="c1" placeholder="Entrez un article"></td>
+                <td><input type="text" name="c2" id="c2" placeholder="0"></td>
+                <td><input type="text" name="c3" id="c3" placeholder="0"></td>
+                <td><input type="text" name="c4" id="c4" placeholder="0" readonly></td>
+            </tr>
+            <tr>
+                <td><button onclick="reinitialiser()">Réinitialiser</button></td>
+                <td><button onclick="calculer()">calculer</button></td>
+                <td></td>
+                <td><input type="text" name="d1" id="d1" placeholder="0" readonly></td>
+            </tr>
+        </table>
+    </div>    
+</body>
+</html>
