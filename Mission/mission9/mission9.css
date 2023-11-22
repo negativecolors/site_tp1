@@ -1,0 +1,50 @@
+body{
+    background-color: beige;
+}
+header{
+    float: left;
+    width: 120%;
+    height: 200px;
+    background-color: rgb(246, 148, 255);
+}
+.img{
+    float: left;
+    height: 150px;
+    width: 120px;
+    margin: 10px;
+}
+div{
+    width: 99.7%;
+    border: solid 2px black;
+    width: auto;
+    height: 500px;
+    background-color: rgb(246, 148, 255);
+}
+
+.des{
+    float: left;
+    height: 150px;
+    width: 100px;
+    margin: 10px;
+    margin-left: 120px;
+    
+}
+.en{
+    float: right;
+    height: 150px;
+    width: 100px;
+    margin-top: 20px;
+    margin-right: 500px;
+    
+}
+footer{
+    width: 99.7%;
+    height: 50px;
+    border: solid 2px black;
+    background-color: grey;
+}
+.fiche{
+    margin: auto;
+    border: solid 2px black;
+    background-color: rgb(246, 148, 255);
+}
