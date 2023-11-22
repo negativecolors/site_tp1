@@ -42,10 +42,10 @@ function f6(){
     let taux_tva = prompt("Taux de TVA?");
     let taux_tva_calcul = (taux_tva /100)+1;
     if(ttc > 100){
-        document.body.innerHTML = '<h1 style="color: red">'+ttc+'</h1>';
+        document.body.innerHTML = '<h1 style="color: red">'+taux_tva_calcul+'</h1>';
     }
     else {
-        document.body.innerHTML = '<h1 style="color: green">'+ttc+'</h1>';
+        document.body.innerHTML = '<h1 style="color: green">'+taux_tva_calcul+'</h1>';
     }
 }
 function f7(){
